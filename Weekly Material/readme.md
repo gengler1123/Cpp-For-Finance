@@ -1,9 +1,10 @@
 
 Weekly Links:
 
-1. Week One
+Week 01
 * Link
 * Link
-2. Week Two
+
+Week 02
 * Link
 * Link
