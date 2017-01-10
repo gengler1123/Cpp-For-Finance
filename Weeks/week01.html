@@ -67,6 +67,10 @@
 
           <script src="https://gist.github.com/gengler1123/368241b4223fd9804e8dcf468b1cc80d.js"></script>
 
+          In the above example we generate pseudo-random numbers in C++ denoting both an x coordinate and y coordinate and store them in a C++ vector ( which will be discussed in more detail later), we then write them to a '.csv' (comma separated value) file type.  To plot this data we would then compile our code and put the compiled executable and the python script in the same folder.  We then run the python script and it will proceed to run the executable using the 'os.system' call, once the executable finished it would then use the Python library 'pandas' to load the 'csv' data into a dataframe, and then we would call 'matplotlib.pyplot' to plot the data using a scatter plot.
+
+          We next discuss a more sophisticated plotting tool.
+
           <h3>Plotting and Data Visualization Tools</h3>
 
 
