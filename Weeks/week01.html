@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>GPU Computing For Finance by gengler1123</title>
+    <title>QF-465: C++ for Finance</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
@@ -15,18 +15,12 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>GPU Computing For Finance</h1>
-        <p>Repository for GPU Computing for Finance</p>
+        <h1>C++ For Finance</h1>
+        <p>Repository for C++ for Finance</p>
 
         <p class="view"><a href="https://github.com/gengler1123/GPU-Computing">View the Project on GitHub <small>gengler1123/GPU-Computing</small></a></p>
 
 
-        <ul>
-          <li><a href="https://github.com/gengler1123/GPU-Computing/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/gengler1123/GPU-Computing/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/gengler1123/GPU-Computing">View On <strong>GitHub</strong></a></li>
-        </ul>
-        
         <ul>
           <li><a href="week01.html">Week 01</a></li>
           <li><a href="week02.html">Week 02</a></li>
@@ -61,17 +55,27 @@
 
           This is the main website for the course QF 465: C++ For Finance.  We will be discussing a number of topics ranging from C++ necessary for job interviews, the tools necessary for derivative pricing models, and extending interpeted languages such as Python and R using C++.  If time in the course permits we will discuss how to extend developed models using CUDA C++ to run on NVIDIA GPU's.
 
+          <h3>C++ Introduction</h3>
+          The basic Hello World! example in C++ looks like,
+          <script src="https://gist.github.com/gengler1123/108fff7e1cf8fc3d3637a9995b9af3f5.js"></script>
 
+          'iostream' calls the library for input and output from C++ programs.  This is part of the standard library and as such we need to call 'std' before calling functions from 'iostream' to ensure we are in the correct namespace.  We can call the code 'using namespace std;' to automatically include the namespace 'std' in our code, this would look like,
+
+          <script src="https://gist.github.com/gengler1123/0820a4a49a3c94dd50d226a96a94f49e.js"></script>
+
+          Frequently we will need to generate a model and plot the results, unfortunately C++ isn't always the best choice for plotting utilities.  As such we will need to work with other tools which can handle plotting better, let us consider the following example.
+
+          <script src="https://gist.github.com/gengler1123/368241b4223fd9804e8dcf468b1cc80d.js"></script>
 
           <h3>Plotting and Data Visualization Tools</h3>
 
 
-For plotting we will use <a href="https://plot.ly">Plot.ly</a>, which is a data science visualization tool with API's for Python, R, MATLAB, and Javascript.  Our primary focus will be using the Python API for this course.  An example code to generate a scatter plot is:
-<script src="https://gist.github.com/gengler1123/5bd111e758d9ebc933abf5c060221f94.js"></script>
+          For plotting we will use <a href="https://plot.ly">Plot.ly</a>, which is a data science visualization tool with API's for Python, R, MATLAB, and Javascript.  Our primary focus will be using the Python API for this course.  An example code to generate a scatter plot is:
+          <script src="https://gist.github.com/gengler1123/5bd111e758d9ebc933abf5c060221f94.js"></script>
 
           which will generate the following plot,
 
-          <iframe width=80%  frameborder="0" scrolling="no" src="//plot.ly/~gengler/1344.embed"></iframe>
+          <iframe width=100% height=100% frameborder="0" scrolling="no" src="//plot.ly/~gengler/1344.embed"></iframe>
 
 <h3>
 <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
