@@ -14,3 +14,7 @@ myFile = "newData.csv"
 os.system("CppPython01.exe newData.csv")
 
 df = pd.read_csv("newData.csv", header=None)
+
+plt.figure()
+plt.scatter(df[0],df[1])
+plt.show()
