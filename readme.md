@@ -17,3 +17,27 @@ C++ Job Interview Resources:
 * https://www.tutorialspoint.com/cplusplus/cpp_interview_questions.htm
 * http://a4academics.com/interview-questions/57-c-plus-plus/419-cpp-interview-questions-answers
 * http://www.mycplus.com/featured-articles/50-c-plus-plus-interview-questions/
+
+
+Practice Problems (from book):
+Page 111 - Chapter Three
+* 1
+* 6
+
+Page 192 - Chapter Four
+* 1
+* 4
+* 10
+
+Page 251 - Chapter Five
+* 1
+* 3
+* 7
+* 10
+
+Page 374 - Chapter Seven
+* 3
+
+Page 559 - Chapter Ten
+* 1
+* 7
