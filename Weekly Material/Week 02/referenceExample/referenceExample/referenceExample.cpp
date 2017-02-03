@@ -40,6 +40,7 @@ void EULER(
 
 int main()
 {
+	/*
 	std::vector<double> v;
 	v.push_back(2.4);
 	for (int i = 0; i < 100; i++)
@@ -61,7 +62,13 @@ int main()
 	Vec.push_back(v1);
 
 	std::cout << Vec[0][0] << std::endl;
+	*/
 
+	int guest = 5;
+	while (++guest < 6)
+	{
+		std::cout << guest << std::endl;
+	}
 
 	return 0;
 }
