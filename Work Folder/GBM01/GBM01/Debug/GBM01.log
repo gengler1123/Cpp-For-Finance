@@ -1,0 +1,5 @@
+﻿  GBM01.cpp
+c:\users\gary\documents\github\cpp-for-finance\work folder\gbm01\gbm01\gbm01.cpp(13): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\gary\documents\github\cpp-for-finance\work folder\gbm01\gbm01\gbm01.cpp(16): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+c:\users\gary\documents\github\cpp-for-finance\work folder\gbm01\gbm01\gbm01.cpp(31): warning C4018: '<' : signed/unsigned mismatch
+  GBM01.vcxproj -> C:\Users\Gary\Documents\GitHub\Cpp-For-Finance\Work Folder\GBM01\Debug\GBM01.exe
