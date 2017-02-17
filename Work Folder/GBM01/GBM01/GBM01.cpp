@@ -36,12 +36,22 @@ void writeToFile(std::vector<double> v, std::string PATH = "singlePath.csv")
 }
 
 
-int main()
+int main(int argc, char**argv)
 {
+	double mu = 1.0;
+	double sigma = .2;
+
+	if (argc == 3)
+	{
+		mu = std::stof(argv[1]);
+		sigma = std::stof(argv[2]);
+	}
+
+	
 	std::vector<double> traj;
 	traj.push_back(1.0);
 
-	GBM(traj, 1.0, .2);
+	GBM(traj, mu, sigma);
 
 	writeToFile(traj);
 

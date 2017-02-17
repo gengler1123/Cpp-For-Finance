@@ -8,7 +8,7 @@
 int main()
 {
 	std::default_random_engine rd;
-	std::mt19937 gen(rd());
+	std::mt19937 gen(time(NULL));
 
 
 	std::uniform_real_distribution<double> uniDist(0.0, 1.0);
