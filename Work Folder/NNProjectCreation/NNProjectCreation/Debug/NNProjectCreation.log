@@ -1,0 +1,3 @@
+﻿  NNProjectCreation.cpp
+c:\users\gary\documents\github\cpp-for-finance\work folder\nnprojectcreation\nnprojectcreation\nnprojectcreation.cpp(20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  NNProjectCreation.vcxproj -> C:\Users\Gary\Documents\GitHub\Cpp-For-Finance\Work Folder\NNProjectCreation\Debug\NNProjectCreation.exe

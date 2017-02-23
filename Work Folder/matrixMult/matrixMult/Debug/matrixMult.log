@@ -1,0 +1,5 @@
+﻿  matrixMult.cpp
+c:\users\gary\documents\visual studio 2015\projects\matrixmult\matrixmult\matrixmult.cpp(44): warning C4101: 'hold': unreferenced local variable
+c:\users\gary\documents\visual studio 2015\projects\matrixmult\matrixmult\matrixmult.cpp(151): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\gary\documents\visual studio 2015\projects\matrixmult\matrixmult\matrixmult.cpp(168): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  matrixMult.vcxproj -> C:\Users\Gary\Documents\Visual Studio 2015\Projects\matrixMult\Debug\matrixMult.exe
