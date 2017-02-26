@@ -18,7 +18,10 @@ private:
 	float **Syn0, **Syn1;
 
 	void genWeights(float **Syn, int m, int n);
-protected:
+
+	bool runCondition();
+	void forwardPropagate();
+	void backwardPropagate();
 
 public:
 	Network(std::string PATH) { data.readData(PATH); inputSize = 2; hiddenSize = 20; outputSize = 3; };
@@ -27,7 +30,35 @@ public:
 		int inputSize_,
 		int hiddenSize_,
 		int outputSize_);
+	~Network();
+
+	void trainNetwork();
+
 };
+
+Network::~Network()
+{
+	delete[] input;
+	delete[] hidden;
+	delete[] output;
+
+	/* Delete Edges */
+}
+
+
+void Network::trainNetwork()
+{
+
+	while (runCondition())
+	{
+		forwardPropagate();
+
+		backwardPropagate();
+	}
+
+
+}
+
 
 
 Network::Network(
@@ -40,6 +71,11 @@ Network::Network(
 	hiddenSize = hiddenSize_;
 	outputSize = outputSize_;
 	data.readData(PATH);
+	input = new float[inputSize];
+	hidden = new float[hiddenSize];
+	output = new float[outputSize];
+	/* Create Edges */
+
 }
 
 
