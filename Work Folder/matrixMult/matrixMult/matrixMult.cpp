@@ -127,7 +127,7 @@ void printMatrix(
 	{
 		for (int j = 0; j < c; j++)
 		{
-			std::cout << std::setw(7) << std::setprecision(3) << Matrix[i][j] << " ";
+			std::cout << std::right << std::setw(10) << std::setprecision(2) << Matrix[i][j] << " ";
 		}
 		std::cout << "\n";
 	}
@@ -227,9 +227,11 @@ int main()
 	{
 		delete[] W[i];
 		delete[] WeightD[i];
+		delete[] WT[i];
 	}
 	delete[] W;
 	delete[] WeightD;
+	delete[] WT;
 
     return 0;
 }
