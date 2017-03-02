@@ -72,14 +72,14 @@ if __name__ == "__main__":
     D1 = np.random.normal((5,5),(1,1),(1000,2))
     D2 = np.random.normal((-2,-3),(.5,.5),(1000,2))
     D3 = np.random.normal((2,-6),(.7,.3),(1000,2))
-    '''
+    
     import matplotlib.pyplot as plt    
     plt.figure()
     plt.scatter(D1[:,0],D1[:,1])
     plt.scatter(D2[:,0],D2[:,1])
     plt.scatter(D3[:,0],D3[:,1])
     plt.show()
-    '''
+    
     
     Points = []
     X = np.linspace(-5,5,100)

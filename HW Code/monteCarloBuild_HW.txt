@@ -1,0 +1,11 @@
+Homework Assignment:
+
+1) Finish the code as written using vector methods.
+
+http://en.cppreference.com/w/cpp/container/vector
+
+2) Optimize the code so the HOLD vector is unnecessary.
+Hint: Do loops have to iterate forwards 0-N?
+
+3) Convert the code into a function that given integer parameter N, and float parameter R > 0 whether in a single instance of the randomly generated field of N stones where you can jump R distance you would be able to get to the finish.
+
