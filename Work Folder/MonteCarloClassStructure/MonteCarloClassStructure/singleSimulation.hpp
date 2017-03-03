@@ -19,11 +19,9 @@ private:
 	bool STATE;
 	int N;
 	double R;
-	Point *Points;
 
 
 	/* Private Member Functions */
-	void runFunction();
 	bool distCheck(Point p, Point q);
 
 
@@ -32,6 +30,7 @@ private:
 
 
 public:
+	bool valueSTATE(){ return STATE; };
 	SingleSimulation(
 		int N, 
 		double R,

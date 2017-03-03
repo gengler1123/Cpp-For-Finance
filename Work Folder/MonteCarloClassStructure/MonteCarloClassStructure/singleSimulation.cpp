@@ -35,7 +35,7 @@ SingleSimulation::SingleSimulation(
 
 	toBe.push_back(O);
 
-	std::cout << "HERE" << std::endl;
+	//std::cout << "HERE" << std::endl;
 
 	std::vector<std::vector<Point>::iterator> HELD;
 
@@ -44,16 +44,16 @@ SingleSimulation::SingleSimulation(
 		next.clear();
 		for (it = toBe.begin(); it != toBe.end(); ++it)
 		{
-			std::cout << "Here" << std::endl;
+			//std::cout << "Here" << std::endl;
 			if (distCheck(*it, E))
 			{
 				STATE = true;
 				return;
 			}
-			std::cout << "HERE " << std::endl;
+			//std::cout << "HERE " << std::endl;
 			for (jt = Points.begin(); jt != Points.end();)
 			{
-				std::cout << (*jt).x << "," << (*jt).y << std::endl;
+				//std::cout << (*jt).x << "," << (*jt).y << std::endl;
 				if (distCheck(*jt, *it))
 				{
 					next.push_back(*jt);
