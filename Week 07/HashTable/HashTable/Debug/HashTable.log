@@ -1,0 +1,5 @@
+﻿  HashTable.cpp
+c:\users\gary\documents\github\cpp-for-finance\week 07\hashtable\hashtable\tablehash.hpp(28): warning C4018: '<' : signed/unsigned mismatch
+c:\users\gary\documents\github\cpp-for-finance\week 07\hashtable\hashtable\tablehash.hpp(58): warning C4018: '<' : signed/unsigned mismatch
+c:\users\gary\documents\github\cpp-for-finance\week 07\hashtable\hashtable\tablehash.hpp(71): warning C4018: '<' : signed/unsigned mismatch
+  HashTable.vcxproj -> C:\Users\Gary\Documents\GitHub\Cpp-For-Finance\Week 07\HashTable\Debug\HashTable.exe
