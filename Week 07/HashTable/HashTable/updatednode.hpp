@@ -3,7 +3,7 @@
 
 #include "node.hpp"
 
-class Node01 :public Node
+class Node01 : public Node
 {
 public:
 	std::string SAYSOMETHING;
