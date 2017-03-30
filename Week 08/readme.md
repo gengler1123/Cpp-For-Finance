@@ -1,6 +1,6 @@
 C++ Multithreading: "Just Enough To Get In Trouble"
 
-*Note: There is a reason multiple classes are offered in cocurrent programming topics.*
+*Note: There is a reason multiple classes are offered in concurrent programming topics.*
 
 
 Threading Questions:
