@@ -12,3 +12,6 @@ Race Conditions:
 
 Mutex:
 * http://www.cplusplus.com/reference/mutex/mutex/
+
+Threads in Classes:
+* http://stackoverflow.com/questions/16718663/c-11-start-thread-with-member-function-and-this-as-parameter
