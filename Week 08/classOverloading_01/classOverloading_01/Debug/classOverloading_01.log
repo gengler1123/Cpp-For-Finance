@@ -1,0 +1,4 @@
+﻿  classOverloading_01.cpp
+c:\users\gary\documents\github\cpp-for-finance\week 08\classoverloading_01\classoverloading_01\classoverloading_01.cpp(31): warning C4305: 'argument' : truncation from 'double' to 'float'
+c:\users\gary\documents\github\cpp-for-finance\week 08\classoverloading_01\classoverloading_01\classoverloading_01.cpp(32): warning C4305: 'argument' : truncation from 'double' to 'float'
+  classOverloading_01.vcxproj -> C:\Users\Gary\Documents\GitHub\Cpp-For-Finance\Week 08\classOverloading_01\Debug\classOverloading_01.exe
