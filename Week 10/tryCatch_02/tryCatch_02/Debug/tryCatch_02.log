@@ -1,0 +1,3 @@
+﻿  tryCatch_02.cpp
+c:\users\gary\documents\github\cpp-for-finance\week 10\trycatch_02\trycatch_02\trycatch_02.cpp(21): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\gary\documents\github\cpp-for-finance\week 10\trycatch_02\trycatch_02\trycatch_02.cpp(21): error C2124: divide or mod by zero

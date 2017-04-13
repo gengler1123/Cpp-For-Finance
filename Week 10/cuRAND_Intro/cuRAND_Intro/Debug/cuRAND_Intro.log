@@ -1,0 +1,12 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Gary\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_Intro\cuRAND_Intro>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "C:\Users\Gary\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_Intro\cuRAND_Intro\kernel.cu" 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  kernel.cu
+C:/Users/Gary/Documents/GitHub/Cpp-For-Finance/Week 10/cuRAND_Intro/cuRAND_Intro/kernel.cu(60): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+C:/Users/Gary/Documents/GitHub/Cpp-For-Finance/Week 10/cuRAND_Intro/cuRAND_Intro/kernel.cu(64): warning C4018: '<' : signed/unsigned mismatch
+  cuRAND_Intro.vcxproj -> C:\Users\Gary\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_Intro\Debug\cuRAND_Intro.exe
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Gary\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_Intro\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.
