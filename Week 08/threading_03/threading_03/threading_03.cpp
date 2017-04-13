@@ -21,7 +21,7 @@ int main()
 
 	std::cout << "Happens First" << std::endl;
 
-	t.join();
+	t.detach();
 
 
 	return 0;

@@ -3,7 +3,7 @@
 
 #include <thread>
 #include <iostream>
-
+#include <vector>
 
 class A
 {
@@ -46,12 +46,14 @@ public:
 
 int main()
 {
-
-	A a(1, 2);
-
-	a.wait();
-
-	a.giveZ();
+	std::vector<A> V;
+	for (int i = 0; i < 10000; i++)
+	{
+		A a(i, i + 1);
+		V.push_back(a);
+	}
+	
+	
 
 	return 0;
 }

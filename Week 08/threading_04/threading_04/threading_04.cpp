@@ -7,8 +7,8 @@
 class Example
 {
 public:
-	int i;
-	Example(int i_) :i(i_){};
+	int &i;
+	Example(int &i_) :i(i_){};
 
 	void operator()()
 	{
@@ -27,7 +27,7 @@ int main()
 	Example E(local_Variable);
 
 	std::thread t(E);
-	t.join();
+	t.detach();
 	
 	std::cout << E.i << std::endl;
 	std::cout << local_Variable << std::endl;

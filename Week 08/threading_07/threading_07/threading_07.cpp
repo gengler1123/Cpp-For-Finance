@@ -9,10 +9,10 @@ std::mutex mtx;           // mutex for critical section
 
 void print_block(int n, char c) {
 	// critical section (exclusive access to std::cout signaled by locking mtx):
-	mtx.lock();
+	//mtx.lock();
 	for (int i = 0; i<n; ++i) { std::cout << c; }
 	std::cout << '\n';
-	mtx.unlock();
+	//mtx.unlock();
 }
 
 int main()

@@ -1,2 +1,9 @@
-﻿  threading_06.cpp
-  threading_06.vcxproj -> C:\Users\Gary\Documents\GitHub\Cpp-For-Finance\Week 08\threading_06\Debug\threading_06.exe
+﻿Build started 3/30/2017 7:22:02 PM.
+     1>Project "C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 08\threading_06\threading_06\threading_06.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         threading_06.vcxproj -> C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 08\threading_06\Debug\threading_06.exe
+     1>Done Building Project "C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 08\threading_06\threading_06\threading_06.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.04

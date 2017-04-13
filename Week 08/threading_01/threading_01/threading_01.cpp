@@ -4,10 +4,9 @@
 #include <iostream>
 #include <thread>
 
-
 void hello()
 {
-	std::cout << "Hello World\n";
+	std::cout << "Hello World" << std::endl;
 }
 
 int main()
@@ -15,7 +14,7 @@ int main()
 	std::thread t1(hello);
 	std::thread t2(hello);
 	std::thread t3(hello);
-	/* 
+	/*
 	We need to 'join' the threads otherwise the program may finish before the threads 
 	accomplish their tasks.
 	*/
