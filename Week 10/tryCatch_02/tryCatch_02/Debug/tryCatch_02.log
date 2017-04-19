@@ -1,3 +1,5 @@
 ﻿  tryCatch_02.cpp
-c:\users\gary\documents\github\cpp-for-finance\week 10\trycatch_02\trycatch_02\trycatch_02.cpp(21): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-c:\users\gary\documents\github\cpp-for-finance\week 10\trycatch_02\trycatch_02\trycatch_02.cpp(21): error C2124: divide or mod by zero
+  stdafx.cpp
+  Generating Code...
+  LINK : C:\Users\Gary\Documents\GitHub\Cpp-For-Finance\Week 10\tryCatch_02\Debug\tryCatch_02.exe not found or not built by the last incremental link; performing full link
+  tryCatch_02.vcxproj -> C:\Users\Gary\Documents\GitHub\Cpp-For-Finance\Week 10\tryCatch_02\Debug\tryCatch_02.exe
