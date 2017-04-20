@@ -1,15 +1,35 @@
-﻿  Compiling CUDA source file kernel.cu...
-  
-  C:\Users\Gary\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\cuRAND_MC>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "C:\Users\Gary\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\cuRAND_MC\kernel.cu" 
-CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
-  kernel.cu
-C:/Users/Gary/Documents/GitHub/Cpp-For-Finance/Week 10/cuRAND_MC/cuRAND_MC/kernel.cu(45): warning C4305: 'initializing' : truncation from 'double' to 'float'
-C:/Users/Gary/Documents/GitHub/Cpp-For-Finance/Week 10/cuRAND_MC/cuRAND_MC/kernel.cu(46): warning C4305: 'initializing' : truncation from 'double' to 'float'
-C:/Users/Gary/Documents/GitHub/Cpp-For-Finance/Week 10/cuRAND_MC/cuRAND_MC/kernel.cu(52): warning C4018: '<' : signed/unsigned mismatch
-C:/Users/Gary/Documents/GitHub/Cpp-For-Finance/Week 10/cuRAND_MC/cuRAND_MC/kernel.cu(65): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
-C:/Users/Gary/Documents/GitHub/Cpp-For-Finance/Week 10/cuRAND_MC/cuRAND_MC/kernel.cu(77): warning C4018: '<' : signed/unsigned mismatch
-  cuRAND_MC.vcxproj -> C:\Users\Gary\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\Debug\cuRAND_MC.exe
-  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Gary\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\Debug\"
-  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
-  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
-          2 file(s) copied.
+﻿Build started 4/13/2017 6:40:27 PM.
+     1>Project "C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\cuRAND_MC\cuRAND_MC.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" /I. /FIcuda_runtime.h /c "C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\cuRAND_MC\kernel.cu" 
+     1>Project "C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\cuRAND_MC\cuRAND_MC.vcxproj" (1) is building "C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\cuRAND_MC\cuRAND_MC.vcxproj" (1:2) on node 2 (CudaBuildCore target(s)).
+     1>CudaBuildCore:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\gengl\AppData\Local\Temp\tmp6547a625a19346c88d00ae99a4616dc7.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\cuRAND_MC\kernel.cu"
+         
+         C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\cuRAND_MC>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\cuRAND_MC\kernel.cu" 
+     1>CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+         kernel.cu
+     1>C:/Users/gengl/Documents/GitHub/Cpp-For-Finance/Week 10/cuRAND_MC/cuRAND_MC/kernel.cu(45): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>C:/Users/gengl/Documents/GitHub/Cpp-For-Finance/Week 10/cuRAND_MC/cuRAND_MC/kernel.cu(46): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>C:/Users/gengl/Documents/GitHub/Cpp-For-Finance/Week 10/cuRAND_MC/cuRAND_MC/kernel.cu(52): warning C4018: '<' : signed/unsigned mismatch
+     1>C:/Users/gengl/Documents/GitHub/Cpp-For-Finance/Week 10/cuRAND_MC/cuRAND_MC/kernel.cu(65): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>C:/Users/gengl/Documents/GitHub/Cpp-For-Finance/Week 10/cuRAND_MC/cuRAND_MC/kernel.cu(77): warning C4018: '<' : signed/unsigned mismatch
+     1>Done Building Project "C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\cuRAND_MC\cuRAND_MC.vcxproj" (CudaBuildCore target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\Debug\cuRAND_MC.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\Debug\cuRAND_MC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\Debug\cuRAND_MC.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         cuRAND_MC.vcxproj -> C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\Debug\cuRAND_MC.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+                 2 file(s) copied.
+     1>Done Building Project "C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 10\cuRAND_MC\cuRAND_MC\cuRAND_MC.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.32
