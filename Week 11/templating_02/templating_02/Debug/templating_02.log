@@ -1,0 +1,58 @@
+﻿  templating_02.cpp
+c:\users\gary\documents\github\cpp-for-finance\week 11\templating_02\templating_02\templating_02.cpp(20): error C2679: binary '<<' : no operator found which takes a right-hand operand of type 'std::vector<int,std::allocator<_Ty>>' (or there is no acceptable conversion)
+          with
+          [
+              _Ty=int
+          ]
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(498): could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(478): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(458): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(438): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(418): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(397): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(377): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(356): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(336): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(316): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(291): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(271): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(237): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(217): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::_Bool)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(210): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(203): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(197): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(699): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(746): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(784): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(831): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(957): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(964): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(971): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(978): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(988): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,T>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)'
+          with
+          [
+              T=std::vector<int,std::allocator<int>>
+  ,            _Ty=std::vector<int,std::allocator<int>>
+          ]
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(1026): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
+          while trying to match the argument list '(std::ostream, std::vector<int,std::allocator<_Ty>>)'
+          with
+          [
+              _Ty=int
+          ]
+          c:\users\gary\documents\github\cpp-for-finance\week 11\templating_02\templating_02\templating_02.cpp(19) : while compiling class template member function 'void Node<std::vector<int,std::allocator<_Ty>>>::giveInfo(void)'
+          with
+          [
+              _Ty=int
+          ]
+          c:\users\gary\documents\github\cpp-for-finance\week 11\templating_02\templating_02\templating_02.cpp(35) : see reference to function template instantiation 'void Node<std::vector<int,std::allocator<_Ty>>>::giveInfo(void)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+          c:\users\gary\documents\github\cpp-for-finance\week 11\templating_02\templating_02\templating_02.cpp(33) : see reference to class template instantiation 'Node<std::vector<int,std::allocator<_Ty>>>' being compiled
+          with
+          [
+              _Ty=int
+          ]

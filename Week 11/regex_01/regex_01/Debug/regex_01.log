@@ -1,0 +1,6 @@
+﻿  regex_01.cpp
+c:\users\gary\documents\github\cpp-for-finance\week 12\regex_01\regex_01\regex_01.cpp(29): error C2374: 'subject' : redefinition; multiple initialization
+          c:\users\gary\documents\github\cpp-for-finance\week 12\regex_01\regex_01\regex_01.cpp(11) : see declaration of 'subject'
+c:\users\gary\documents\github\cpp-for-finance\week 12\regex_01\regex_01\regex_01.cpp(32): error C2664: 'std::regex_iterator<std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>,char,std::regex_traits<char>>::regex_iterator(const std::regex_iterator<std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>,char,std::regex_traits<char>> &)' : cannot convert argument 1 from 'std::regex' to 'const std::regex_iterator<std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>,char,std::regex_traits<char>> &'
+          Reason: cannot convert from 'std::regex' to 'const std::regex_iterator<std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>,char,std::regex_traits<char>>'
+          No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called

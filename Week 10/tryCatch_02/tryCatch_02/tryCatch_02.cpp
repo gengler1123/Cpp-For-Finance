@@ -10,14 +10,14 @@ class myException : public std::exception
 	{
 		return "User Defined Exception";
 	}
-} myex;
+};
 
 
 int main()
 {
 	try
 	{
-		throw myex;
+		throw myException();
 	}
 	catch (std::exception &e)
 	{

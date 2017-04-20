@@ -1,0 +1,5 @@
+﻿  threadingExample_01.cpp
+c:\users\gary\documents\github\cpp-for-finance\week 12\threadingexample_01\threadingexample_01\threadingexample_01.cpp(37): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(1124): error C2280: 'std::thread::thread(const std::thread &)' : attempting to reference a deleted function
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\thread(70) : see declaration of 'std::thread::thread'
+          This diagnostic occurred in the compiler generated function 'Example::Example(const Example &)'
