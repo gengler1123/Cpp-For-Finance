@@ -7,7 +7,10 @@ int main()
 {
 	std::string subject("This is a test. +10 abcd -10");
 	try {
-		std::regex re("(\\+|-)?[[:digit:]]+");
+		std::string REGEX = "";
+		REGEX += "(-)?";
+		REGEX += "[[:digit:]]";
+		std::regex re(REGEX);//"(\\+|-)?[[:digit:]]+");
 		std::sregex_iterator next(subject.begin(), subject.end(), re);
 		std::sregex_iterator end;
 		while (next != end) {

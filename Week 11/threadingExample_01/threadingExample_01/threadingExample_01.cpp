@@ -32,6 +32,15 @@ private:
 
 
 public:
+	~Example()
+	{
+		if (t_.joinable())
+		{
+			t_.join();
+		}
+	}
+
+
 	void setupFunction(unsigned int offset_)
 	{
 		gen = std::mt19937(time(NULL) + offset_);

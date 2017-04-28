@@ -5,7 +5,7 @@
 
 int main()
 {
-	std::string subject("103.15");
+	std::string subject("103.15 5 120.232 34343.");
 	try {
 		std::string REGEX = "";
 		REGEX += "((\\+|-)?"; // Checks optional sign symbol

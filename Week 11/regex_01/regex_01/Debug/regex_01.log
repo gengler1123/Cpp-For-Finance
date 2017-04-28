@@ -1,6 +1,15 @@
-﻿  regex_01.cpp
-c:\users\gary\documents\github\cpp-for-finance\week 12\regex_01\regex_01\regex_01.cpp(29): error C2374: 'subject' : redefinition; multiple initialization
-          c:\users\gary\documents\github\cpp-for-finance\week 12\regex_01\regex_01\regex_01.cpp(11) : see declaration of 'subject'
-c:\users\gary\documents\github\cpp-for-finance\week 12\regex_01\regex_01\regex_01.cpp(32): error C2664: 'std::regex_iterator<std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>,char,std::regex_traits<char>>::regex_iterator(const std::regex_iterator<std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>,char,std::regex_traits<char>> &)' : cannot convert argument 1 from 'std::regex' to 'const std::regex_iterator<std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>,char,std::regex_traits<char>> &'
-          Reason: cannot convert from 'std::regex' to 'const std::regex_iterator<std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>,char,std::regex_traits<char>>'
-          No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+﻿Build started 4/20/2017 6:42:35 PM.
+     1>Project "C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 11\regex_01\regex_01\regex_01.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt regex_01.cpp
+         regex_01.cpp
+     1>c:\users\gengl\documents\github\cpp-for-finance\week 11\regex_01\regex_01\regex_01.cpp(24): warning C4101: 'e' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 11\regex_01\Debug\regex_01.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 11\regex_01\Debug\regex_01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 11\regex_01\Debug\regex_01.lib" /MACHINE:X86 Debug\regex_01.obj
+         Debug\stdafx.obj
+         regex_01.vcxproj -> C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 11\regex_01\Debug\regex_01.exe
+     1>Done Building Project "C:\Users\gengl\Documents\GitHub\Cpp-For-Finance\Week 11\regex_01\regex_01\regex_01.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.99

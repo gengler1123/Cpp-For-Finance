@@ -43,11 +43,17 @@ int main()
 
 	B<int> b(10, 2);
 
+	B<double> c(10.2, 5);
+
 	A *ptr = &a;
 
 	ptr->giveID();
 
 	ptr = &b;
+
+	ptr->giveID();
+
+	ptr = &c;
 
 	ptr->giveID();
 

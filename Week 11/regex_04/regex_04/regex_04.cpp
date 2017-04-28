@@ -9,10 +9,10 @@
 
 int main()
 {
-	std::string subject("carat");
+	std::string subject("carra");
 	try {
 		std::string REGEX = "";
-		REGEX += "[rf]at";
+		REGEX += "[rf]+at";
 		std::regex re(REGEX);
 		std::sregex_iterator next(subject.begin(), subject.end(), re);
 		std::sregex_iterator end;
